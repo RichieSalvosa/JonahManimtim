@@ -6,8 +6,8 @@
     <title>Final</title>
     <style type ="text/css">
         .divnav{
-            background-image: url(img/banner.jpg);
-            background-size: contain;
+            background-image: url(img/channelbannerupscale.jpg);
+            background-size: cover;
         }
         .navbar{
             position: sticky;
@@ -20,18 +20,19 @@
             padding: 0;
         }
         .navbar li{
+            font-size: 20px;
+            font-weight: bold;
             list-style: none;
-            margin: 100px 20px;
+            margin: 115px 20px;
         }
         .navbar a{
             color: white;
         }
-
         body{
             margin: 0;
             padding: 0;
         }
-        .profilediv{
+        .flexcenter{
             display: flex;
             justify-content: center;
         }
@@ -39,6 +40,9 @@
             display: flex;
             justify-content: center;
             height: 200px;
+        }
+        .centeralign{
+            text-align: center;
         }
     </style>
 </head>
@@ -52,11 +56,20 @@
             </ul>
         </nav>
     </div>
-    <div class="profilediv">
+    <div class="flexcenter">
         <h1> Jonah Manimtim </h1>
     </div>
     <div class="profilepic">
         <img src="img/profile.jpg"> 
+    </div>
+    <div>
+        <h2 class="centeralign"> About Me </h2>
+        <p class="centeralign"> Jonah Manimtim is known for Clicks of a Switch (2023), Chinese Food & Rocks (2022) and What's Real? (2024). </p>
+        <p class="centeralign"> $0 kinda man, dollar bill in your hand kinda man </p>
+        <br>
+    </div>
+    <div class="flexcenter">
+        <img src="img/garbageday.jpg" alt="garbageday">
     </div>
 </body>
 </html>
