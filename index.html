@@ -5,32 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final</title>
     <style type ="text/css">
+        .divnav{
+            background-image: url(img/banner.jpg);
+            background-size: contain;
+        }
         .navbar{
-            background-color: #003B5C;
             position: sticky;
+            margin: 0;
         }
         .navbar ul{
             overflow: auto;
+            display: flex;
+            justify-content: center;
+            padding: 0;
         }
         .navbar li{
-            float: left;
             list-style: none;
-            margin: 15px 20px;
+            margin: 100px 20px;
+        }
+        .navbar a{
+            color: white;
         }
 
         body{
             margin: 0;
             padding: 0;
         }
+        .profilediv{
+            display: flex;
+            justify-content: center;
+        }
+        .profilepic{
+            display: flex;
+            justify-content: center;
+            height: 200px;
+        }
     </style>
 </head>
 <body>
+    <div class="divnav">
         <nav class="navbar">
             <ul class="navbar ul"> 
-                <li class="navbar li"> About </li>
-                <li class="navbar li"> <a href="https://www.imdb.com/name/nm14526795/" target="_blank"> My Work </a></li>
-                <li class="navbar li"> Contact </li>
+                <li class="navbar li"> <a href="https://www.youtube.com/@SalvadorRico" target="_blank" class="navbar a"> Youtube </a></li>
+                <li class="navbar li"> <a href="https://www.imdb.com/name/nm14526795/" target="_blank" class="navbar a"> IMDB </a></li>
+                <li class="navbar li"> <a href="https://letterboxd.com/jonahsals/" target="_blank" class="navbar a"> Letter Box </a></li>
             </ul>
         </nav>
+    </div>
+    <div class="profilediv">
+        <h1> Jonah Manimtim </h1>
+    </div>
+    <div class="profilepic">
+        <img src="img/profile.jpg"> 
+    </div>
 </body>
 </html>
