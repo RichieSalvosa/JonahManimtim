@@ -33,6 +33,16 @@
             margin: 0;
             padding: 0;
         }
+        .flexrow{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .flexitem{
+            margin: 0px 50px;
+            padding: 15px 35px;
+        }
         .flexcenter{
             display: flex;
             justify-content: center;
@@ -48,6 +58,9 @@
         .graydiv{
             background-color: rgb(244, 243, 243);
             padding: 10px;
+        }
+        #biography{
+            margin: 5px 250px;
         }
     </style>
 </head>
@@ -72,7 +85,14 @@
     <a id="about"></a>
     <div>
         <h2 class="centeralign"> About Me </h2>
-        <p class="centeralign"> Jonah Manimtim is known for Clicks of a Switch (2023), Chinese Food & Rocks (2022) and What's Real? (2024). </p>
+        <p class="centeralign" id="biography"> 
+            Jonah Manimtim is known for Amateur Hour (2025), Fine Art of Conversation (2025), and Two Die For (2025).
+            He is graduating from Capilano University in Vancouver this year, where he has developed a strong foundation in directing, cinematography,
+            and on‑set collaboration. Jonah has worked extensively on film sets in a wide range of roles, giving him a 
+            deep understanding of the full production pipeline. Beyond his professional work, he has created numerous short |
+            films and personal projects that have screened at film festivals, earning him recognition including a short film award. 
+            His growing body of work reflects a filmmaker with both technical skill and a clear creative voice
+        </p>
         <p class="centeralign"> $0 kinda man, dollar bill in your hand kinda man </p>
         <br>
     </div>
@@ -83,11 +103,50 @@
             </a>
         </div>
         <div>
-            <p class="centeralign"> Check out Garbage Day Studios! </p>
+            <h2 class="centeralign"> Check out Garbage Day Studios! </h2>
             <p class="centeralign"> a umm group of uhh filmmakers who uh want to bring you uhm films from all kinds of uh different uhm voices uh and visions uh yeah </p>
         </div>
         <a id="studio"></a>
     </div>
-
+    <div>
+        <h1 class="centeralign"> My Projects </h1>
+        <div class="flexrow">
+            <div class="flexitem">
+                <h3 class="centeralign">AMATEUR HOUR TEASER </h3>
+                <p class="centeralign"> 
+                    A short film that a bunch of buddies and I shot in about a week, as well as my directorial debut!
+                    The script has been living in my drive for the past year and a half and to see it beginning to get made still feels surreal. 
+                    Here is the first, small snippet of what's to come, and I hope you enjoy it as much as we all did making it!
+                    -Jonah Manimtim (P.S. this film is never coming out)
+                </p>
+                <a href="https://www.youtube.com/watch?v=_p4dJoivKF0" target="_blank">
+                    <img src="img/ameatuer.jpg" height="200px" class="flexcenter">
+                </a>
+            </div>
+            <div class="flexitem">
+                <h3 class="centeralign">THE FINE ART OF CONVERSATION </h3>
+                <p class="centeralign"> 
+                    a short film for my directing final, i think personally i coulda done better but you get what you give i guess. being a cowboy was pretty sick,
+                    personally it was a life long dream for me. always thought i was gonna be spider-man one day, but fate decided i was destined to be a gunslinger.
+                    now check my cool shots - Jonah Manimtim
+                </p>
+                <a href="https://www.youtube.com/watch?v=saZ1Svccgus" target="_blank">
+                    <img src="img/fineconversation.jpg" height="200px" class="flexcenter">
+                </a>
+            </div>
+            <div class="flexitem">
+                <h3 class="centeralign">TWO DIE FOR: 48 HR SHORT FILM </h3>
+                <p class="centeralign"> 
+                    Hello everyone!! This is a short film that I had the pleasure co-writing and it was a blast to work on it. Everyone on this crew is fantastic and I would highly recommend everyone who worked on this project. I can never say thank you enough.
+                    That being said,
+                    I hope you guys enjoy watching it as much as we did making it.
+                    -Jonah Manimitm
+                </p>
+                <a href="https://www.youtube.com/watch?v=ruSiB0pe_Zk" target="_blank">
+                    <img src="img/twodiefor.jpg" height="200px" class="flexcenter">
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
