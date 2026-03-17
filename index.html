@@ -17,6 +17,8 @@
             overflow: auto;
             display: flex;
             justify-content: center;
+            align-items: center;
+            flex-direction: row;
             padding: 0;
         }
         .navbar li{
@@ -42,6 +44,10 @@
         .flexitem{
             margin: 0px 50px;
             padding: 15px 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
         .flexcenter{
             display: flex;
@@ -63,7 +69,7 @@
             margin: 5px 250px;
         }
         #homebutton{
-            float: left;
+            bottom: 0;
             position: fixed;
             height: 30px;
         }
@@ -103,12 +109,6 @@
         <p class="centeralign"> $0 kinda man, dollar bill in your hand kinda man </p>
         <a id="studio"></a>
         <br>
-    </div>
-
-    <div>
-        <a href="#top">
-            <img src="img/home.png" id="homebutton">
-        </a>
     </div>
     <div class="graydiv">
         <div class="flexcenter">
@@ -198,6 +198,11 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div>
+        <a href="#top">
+            <img src="img/home.png" id="homebutton">
+        </a>
     </div>
 </body>
 </html>
