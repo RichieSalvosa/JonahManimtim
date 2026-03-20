@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final</title>
+    <title>Jonah's Film Stuff</title>
     <style type ="text/css">
         .divnav{
             background-image: url(img/channelbannerupscale.jpg);
@@ -26,28 +26,38 @@
             font-size: 20px;
             font-weight: bold;
             list-style: none;
-            margin: 115px 20px;
+            margin: 90px 20px;
         }
         .navbar a{
             color: white;
         }
         body{
-            margin: 0;
+            margin: 0 auto;
             padding: 0;
+        }
+        div{
+            margin: 0 auto;
+            padding: 1%;
         }
         .flexrow{
             display: flex;
             flex-direction: row;
-            align-items: center;
+            align-items: stretch;
             justify-content: center;
+            flex-wrap: wrap;
         }
         .flexitem{
+            max-width: 300px;
             margin: 0px 50px;
             padding: 15px 35px;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            flex: 1;
+        }
+        .flexitem p{
+            flex: 1;
         }
         .flexcenter{
             display: flex;
@@ -63,10 +73,11 @@
         }
         .graydiv{
             background-color: rgb(244, 243, 243);
-            padding: 10px;
+            padding: 1%;
         }
         #biography{
-            margin: 5px 250px;
+            margin: 5px auto;
+            padding: 0px 150px;
         }
         #homebutton{
             bottom: 0;
@@ -79,13 +90,13 @@
     <a id="top"></a>
     <div class="divnav">
         <nav class="navbar">
-            <ul class="navbar ul"> 
-                <li class="navbar li"> <a href="#about" class="navbar a"> ABOUT ME  </a></li>
-                <li class="navbar li"> <a href="#studio" class="navbar a"> GARBAGE DAY STUDIOS </a></li>
-                <li class="navbar li"> <a href="#projects" class="navbar a"> MY PROJECTS </a></li>
-                <li class="navbar li"> <a href="https://www.youtube.com/@SalvadorRico" target="_blank" class="navbar a"> YOUTUBE </a></li>
-                <li class="navbar li"> <a href="https://www.imdb.com/name/nm14526795/" target="_blank" class="navbar a"> IMDB </a></li>
-                <li class="navbar li"> <a href="https://letterboxd.com/jonahsals/" target="_blank" class="navbar a"> LETTER BOX </a></li>
+            <ul> 
+                <li> <a href="#about"> ABOUT ME  </a></li>
+                <li> <a href="#studio"> GARBAGE DAY STUDIOS </a></li>
+                <li> <a href="#projects"> MY PROJECTS </a></li>
+                <li> <a href="https://www.youtube.com/@SalvadorRico" target="_blank"> YOUTUBE </a></li>
+                <li> <a href="https://www.imdb.com/name/nm14526795/" target="_blank"> IMDB </a></li>
+                <li> <a href="https://letterboxd.com/jonahsals/" target="_blank"> LETTER BOX </a></li>
             </ul>
         </nav>
     </div>
@@ -199,10 +210,8 @@
             </div>
         </div>
     </div>
-    <div>
-        <a href="#top">
-            <img src="img/home.png" id="homebutton">
-        </a>
-    </div>
+    <a href="#top">
+       <img src="img/home.png" id="homebutton">
+    </a>
 </body>
 </html>
