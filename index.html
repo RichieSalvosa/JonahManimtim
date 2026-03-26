@@ -31,38 +31,7 @@
         .navbar a{
             color: white;
         }
-        body{
-            margin: 0 auto;
-            padding: 0;
-        }
-        div{
-            margin: 0 auto;
-            padding: 1%;
-        }
-        .flexrow{
-            display: flex;
-            flex-direction: row;
-            align-items: stretch;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .flexitem{
-            max-width: 300px;
-            margin: 0px 50px;
-            padding: 15px 35px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            flex: 1;
-        }
-        .flexitem p{
-            flex: 1;
-        }
-        .flexcenter{
-            display: flex;
-            justify-content: center;
-        }
+
         .profilepic{
             display: flex;
             justify-content: center;
@@ -86,6 +55,7 @@
         }
         #table{
             border-style: solid;
+            border-collapse: collapse;
         }
         #tablecaption{
             font-weight: bold;
@@ -98,6 +68,7 @@
 
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="css/filmstuff.css">
 </head>
 <body>
     <a id="top"></a>
@@ -223,35 +194,43 @@
             </div>
         </div>
     </div>
+    
     <div class="flexcenter">
-        
         <div class="flexitem">
-            <h2> My Award Winning Film: Two Die For </h2> 
-            <img src="img/awardgarbageday.png" height="250px" width="175px">
+            <img src="img/awardgarbageday.png" height="290px" width="215px">
         </div>
+        <div class=flexitem>
+            <h2 class="centeralign"> My Award Winning Film: <h1 style="color: rgb(197, 137, 25);">TWO DIE FOR </h1></h2>
+            <p class="centeralign"> Two unsuspecting detectives take on a puzzling case focussing on an unlikely object of chance. </p>
+            <p class="centeralign">🏆Best Editing, Acting, Picture, Cinematography</p>
+            <a href="https://dotfilmfest6.wixsite.com/dotfilmfestival/copy-of-2024-submissions" target="_blank" class="centeralign"> 
+                Check it out on DOT Film Fest's website!
+            </a>
+        </div>
+    
     </div>
     <div class="flexcenter graydiv">
-        <table border="1">
+        <table border="1" class="table">
             <caption class="centeralign" id="tablecaption"> My Top 3 Films </caption>
             <tr>
-                <td> Movie</td>
-                <td> Rating </td>
-                <td> Comments </td>                
+                <td class="centeralign"> Movie</td>
+                <td class="centeralign"> Rating </td>
+                <td class="centeralign"> Comments </td>                
             </tr>
             <tr>
                 <td> <img src="img/eternal.jpg" height="150px" width="105px"></td>
                 <td> <img src="img/5stars.png" height="150px" width="140px"> </td>
-                <td class="centeralign"> The most special of movies to me, and will always hold a place in my heart no matter what </td>
+                <td class="centeralign"> " The most special of movies to me, and will always hold a place in my heart no matter what " </td>
             </tr>
             <tr>
                 <td> <img src="img/rockschool.jpg" height="150px" width="105px"></td>
                 <td> <img src="img/5stars.png" height="150px" width="140px"> </td>
-                <td class="centeralign"> and suddenly the ending song means everything </td>
+                <td class="centeralign"> " and suddenly the ending song means everything "  </td>
             </tr>
             <tr>
                 <td> <img src="img/pastlives.jpg" height="150px" width="105px"></td>
                 <td> <img src="img/5stars.png" height="150px" width="140px"> </td>
-                <td class="centeralign"> 'you dream in a language i can't undderstand' same bro, same </td>
+                <td class="centeralign"> " 'you dream in a language i can't undderstand' same bro, same "</td>
             </tr>
         </table>
     </div>

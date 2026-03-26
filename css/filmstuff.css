@@ -1,0 +1,32 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+div{
+    margin: 0 auto;
+    padding: 1%;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flexitem{
+    max-width: 300px;
+    margin: 0px 50px;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+.flexitem p{
+    flex: 1;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+}
