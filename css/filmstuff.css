@@ -30,3 +30,15 @@ div{
     display: flex;
     justify-content: center;
 }
+a{
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+}
+a:hover{
+    color:orange;
+}
+a:link {
+    color: black;
+}

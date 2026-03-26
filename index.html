@@ -28,10 +28,15 @@
             list-style: none;
             margin: 90px 20px;
         }
-        .navbar a{
+        .navbar a:link{
             color: white;
         }
-
+        .navbar a:visited{
+            color:white;
+        }
+        .navbar a:hover{
+            color:grey
+        }
         .profilepic{
             display: flex;
             justify-content: center;
@@ -52,6 +57,10 @@
             bottom: 0;
             position: fixed;
             height: 30px;
+        }
+        #reviewbutton{
+            font-weight: bold;
+            border-radius: 30px;
         }
         #table{
             border-style: solid;
@@ -78,9 +87,11 @@
                 <li> <a href="#about"> ABOUT ME  </a></li>
                 <li> <a href="#studio"> GARBAGE DAY STUDIOS </a></li>
                 <li> <a href="#projects"> MY PROJECTS </a></li>
+                <li> <a href="#reviews"> REVIEWS </a></li>
+                <li> <a href="#crew"> CREW </a></li>
                 <li> <a href="https://www.youtube.com/@SalvadorRico" target="_blank"> YOUTUBE </a></li>
                 <li> <a href="https://www.imdb.com/name/nm14526795/" target="_blank"> IMDB </a></li>
-                <li> <a href="https://letterboxd.com/jonahsals/" target="_blank"> LETTER BOX </a></li>
+                <li> <a href="https://letterboxd.com/jonahsals/" target="_blank"> LETTER BOXD </a></li>
             </ul>
         </nav>
     </div>
@@ -89,7 +100,7 @@
         <h1> Jonah Manimtim </h1>
     </div>
     <div class="profilepic">
-        <img src="img/profile.jpg"> 
+        <img src="img/profile.jpg" alt="profile"> 
     </div>
     <div>
         <h2 class="centeralign"> About Me </h2>
@@ -97,11 +108,11 @@
             Jonah Manimtim is known for Amateur Hour (2025), Fine Art of Conversation (2025), and Two Die For (2025).
             He is graduating from Capilano University in Vancouver this year, where he has developed a strong foundation in directing, cinematography,
             and on‑set collaboration. Jonah has worked extensively on film sets in a wide range of roles, giving him a 
-            deep understanding of the full production pipeline. Beyond his professional work, he has created numerous short |
-            films and personal projects that have screened at film festivals, earning him recognition including a short film award. 
-            His growing body of work reflects a filmmaker with both technical skill and a clear creative voice
+            deep understanding of the full production pipeline. Beyond his professional work, he has created numerous short
+            films and personal projects that have screened at film festivals, earning him recognition including a few short film awards from DOT film fest. 
+            His growing body of work reflects a filmmaker with both technical skill and a clear creative voice.
         </p>
-        <p class="centeralign"> $0 kinda man, dollar bill in your hand kinda man </p>
+        <p class="centeralign"> "$0 kinda man, dollar bill in your hand kinda man" </p>
         <a id="studio"></a>
         <br>
     </div>
@@ -113,7 +124,7 @@
         </div>
         <div>
             <h2 class="centeralign"> Check out Garbage Day Studios! </h2>
-            <p class="centeralign"> a umm group of uhh filmmakers who uh want to bring you uhm films from all kinds of uh different uhm voices uh and visions uh yeah </p>
+            <p class="centeralign"> "a umm group of uhh filmmakers who uh want to bring you uhm films from all kinds of uh different uhm voices uh and visions uh yeah" </p>
         </div>
     </div>
     <div>
@@ -129,7 +140,7 @@
                     -Jonah Manimtim (P.S. this film is never coming out)
                 </p>
                 <a href="https://www.youtube.com/watch?v=_p4dJoivKF0" target="_blank">
-                    <img src="img/ameatuer.jpg" height="200px" class="flexcenter">
+                    <img src="img/ameatuer.jpg" alt="amateur" height="200px" class="flexcenter">
                 </a>
             </div>
             <div class="flexitem">
@@ -140,7 +151,7 @@
                     now check my cool shots - Jonah Manimtim
                 </p>
                 <a href="https://www.youtube.com/watch?v=saZ1Svccgus" target="_blank">
-                    <img src="img/fineconversation.jpg" height="200px" class="flexcenter">
+                    <img src="img/fineconversation.jpg" alt="fineconvo" height="200px" class="flexcenter">
                 </a>
             </div>
             <div class="flexitem">
@@ -152,7 +163,7 @@
                     -Jonah Manimitm
                 </p>
                 <a href="https://www.youtube.com/watch?v=ruSiB0pe_Zk" target="_blank">
-                    <img src="img/twodiefor.jpg" height="200px" class="flexcenter">
+                    <img src="img/twodiefor.jpg" alt="twodie" height="200px" class="flexcenter">
                 </a>
             </div>
         </div>
@@ -168,7 +179,7 @@
                     -Jonah Manimtim
                 </p>
                 <a href="https://www.youtube.com/watch?v=SlCHxVmQADk" target="_blank">
-                    <img src="img/goldeninn.jpg" height="200px" class="flexcenter">
+                    <img src="img/goldeninn.jpg" alt="golden" height="200px" class="flexcenter">
                 </a>
             </div>
             <div class="flexitem">
@@ -179,7 +190,7 @@
                     jonah manimtim and yena shin!
                 </p>
                 <a href="https://www.youtube.com/watch?v=o3gNawgq7YI&pp=0gcJCcUKAYcqIYzv" target="_blank">
-                    <img src="img/anyoneelse.jpg" height="200px" class="flexcenter">
+                    <img src="img/anyoneelse.jpg" alt="anyone" height="200px" class="flexcenter">
                 </a>
             </div>
             <div class="flexitem">
@@ -189,16 +200,13 @@
                     She looks like a friggin baywatch character. Hehehehe
                 </p>
                 <a href="https://www.youtube.com/watch?v=yOZJDHYcDwY&t=9s" target="_blank">
-                    <img src="img/tangledgrass.jpg" height="200px" class="flexcenter">
+                    <img src="img/tangledgrass.jpg" alt="grass" height="200px" class="flexcenter">
                 </a>
             </div>
         </div>
     </div>
     
     <div class="flexcenter">
-        <div class="flexitem">
-            <img src="img/awardgarbageday.png" height="290px" width="215px">
-        </div>
         <div class=flexitem>
             <h2 class="centeralign"> My Award Winning Film: <h1 style="color: rgb(197, 137, 25);">TWO DIE FOR </h1></h2>
             <p class="centeralign"> Two unsuspecting detectives take on a puzzling case focussing on an unlikely object of chance. </p>
@@ -207,38 +215,72 @@
                 Check it out on DOT Film Fest's website!
             </a>
         </div>
-    
+        <div class="flexitem">
+            <img src="img/awardgarbageday.png" alt="award" height="290px" width="215px">
+        </div>
     </div>
     <div class="flexcenter graydiv">
-        <table border="1" class="table">
-            <caption class="centeralign" id="tablecaption"> My Top 3 Films </caption>
+        <a id="reviews"></a>
+        <table border="1" id="table">
+            <caption class="centeralign" id="tablecaption"> Jonah's Favourite 3 Films </caption>
             <tr>
-                <td class="centeralign"> Movie</td>
+                <td class="centeralign"> Film </td>
                 <td class="centeralign"> Rating </td>
-                <td class="centeralign"> Comments </td>                
+                <td class="centeralign"> Comments (from Letter Boxd) </td>                
             </tr>
             <tr>
-                <td> <img src="img/eternal.jpg" height="150px" width="105px"></td>
-                <td> <img src="img/5stars.png" height="150px" width="140px"> </td>
+                <td> <img src="img/eternal.jpg" alt="eternal" height="150px" width="105px"></td>
+                <td> <img src="img/5stars.png" alt="fivestars" height="150px" width="140px"> </td>
                 <td class="centeralign"> " The most special of movies to me, and will always hold a place in my heart no matter what " </td>
             </tr>
             <tr>
-                <td> <img src="img/rockschool.jpg" height="150px" width="105px"></td>
-                <td> <img src="img/5stars.png" height="150px" width="140px"> </td>
+                <td> <img src="img/rockschool.jpg" alt="rockschool" height="150px" width="105px"></td>
+                <td> <img src="img/5stars.png" alt="fivestars" height="150px" width="140px"> </td>
                 <td class="centeralign"> " and suddenly the ending song means everything "  </td>
             </tr>
             <tr>
-                <td> <img src="img/pastlives.jpg" height="150px" width="105px"></td>
-                <td> <img src="img/5stars.png" height="150px" width="140px"> </td>
+                <td> <img src="img/pastlives.jpg" alt="pastlives" height="150px" width="105px"></td>
+                <td> <img src="img/5stars.png" alt="fivestars" height="150px" width="140px"> </td>
                 <td class="centeralign"> " 'you dream in a language i can't undderstand' same bro, same "</td>
             </tr>
         </table>
     </div>
-    <div class="flexcenter">
-         <a href="https://letterboxd.com/jonahsals/" target="_blank"><button type="butto "> More Reviews </button></a>
+    <div class="flexcenter graydiv">
+         <a href="https://letterboxd.com/jonahsals/reviews" target="_blank"><button type="button" id="reviewbutton"> More Reviews </button></a>
     </div>
+    <div>
+        <h1 class="centeralign"> Fellow Crew Memebers</h1>
+    </div>
+    <div class="flexcenter">
+        <div class="flexitem">
+            <img src="img/patrickplaceholder.png" alt="crew" height="250px" width="300px">
+        </div>
+        <div class="flexitem">
+            <h2 class="centeralign">Patrick Dinache</h2>
+            <p class="centeralign">
+                Patrick has been my right hand man for the past few projects i've worked on. He's worked hard as a PA on set, often
+                driving and hulling equipment around, making sure the crew is well fed, and helping out in any way he can.
+                He's taking a lighting course this summer at Capilano University to expand his skills on set!
+            </p>
+        </div>
+    </div>
+    <a id="crew"></a>
+    <div class="flexcenter">
+        <div class="flexitem">
+            <h2 class="centeralign">Alexis Paige Dixon</h2>
+            <p class="centeralign">
+                Alexis Paige Dixon has been a close collaborator on a variety of projects. She's always been available to star in
+                any project of mine that I approach her with. Her acting and other film set skills are for sure going to bring her
+                a long way in this industry!
+            </p>
+        </div>
+        <div class="flexitem">
+            <img src="img/alexis.png" alt="placeholder" height="250px" width="300px">
+        </div>
+    </div>
+
     <a href="#top">
-       <img src="img/home.png" id="homebutton">
+       <img src="img/home.png" alt="home" id="homebutton">
     </a>
 </body>
 </html>
