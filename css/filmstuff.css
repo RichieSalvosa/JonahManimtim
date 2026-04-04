@@ -21,10 +21,12 @@ div{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .flexitem p{
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .flexcenter{
     display: flex;
